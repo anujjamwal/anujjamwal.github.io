@@ -1,0 +1,11 @@
+- render('/default.*') do
+  .post
+    - if item[:draft]
+      .draft-notice
+        You are viewing a draft version of the article
+    %h1
+      = item[:title]
+    %aside
+      = "Posted on: #{item[:created_at]}"
+    %article
+      = yield

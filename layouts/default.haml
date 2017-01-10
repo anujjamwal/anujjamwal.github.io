@@ -1,0 +1,15 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title= @item[:title]
+    %link{:href => "/assets/styles/stylesheet.css", :rel => "stylesheet"}/
+    %meta{:content => "Nanoc #{Nanoc::VERSION}", :name => "generator"}/
+  %body
+    #main
+      = yield
+    #sidebar
+      %p
+        Anuj Jamwal

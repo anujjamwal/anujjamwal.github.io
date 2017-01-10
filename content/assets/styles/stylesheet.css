@@ -1,0 +1,30 @@
+* {
+  font-family: Georgia, Palatino, serif;
+}
+
+body {
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+blockquote p {
+    background-color: #f6f6f6;
+    border-left: 8px solid #dcdcdc;
+    padding: 10px;
+}
+
+.draft-notice {
+    color: red;
+}
