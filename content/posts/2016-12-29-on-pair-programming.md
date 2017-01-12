@@ -55,4 +55,14 @@ Naturally, such an arrangement of people rotating on on going story is impossibl
 
 ## Pair Programming and Code Reviews
 
+Code reviews are a very common dev practice where by mostly at the end of a story/feature development, the developer raises a pull request on scm and one or sometimes two other developers review the code submitted. If they are satisfied with the code, they merge the request to mainline. They might also have some comments which they post on the request and the original developer goes back and fixed them. While this flow seems easy, in my experience, it is a heavy drain on the other developer's bandwidth. I have seen it slow down the development.
+
+Lets take a scenario, Mr A works on a story, say, *As a user, I want to be able to login to the system with my credentials*. He takes a day or two on his branch and then raises a pull request. Some reviewer, Mr X, reviews the pull request and asks Mr A to fix the exception being thrown. Mr A fixes this and now Mr X, since he is good with the code, merges the request. Lets see what is going on here. 
+* Mr A is the only person who works on the entire story.
+* Between the time the request is submitted and Mr X starts the review, there is always sometime where either Mr A is idle. If he picks up something else and there is some comment on earlier work, he has to switch context to work on the story again.
+* Either Mr X is just meant to code review or he should be a context switching ninja.
+* Makes tracking harder especially if there is queue of reviews.
+* Mr A, given that he is developer, will always have defense for his code which takes more time.
+
+Pair programming is a natural alternative to this approach. Since its always a couple of developers working on a story, and since this is done over the course of development of the story, the review is much thorougher and with the rationale, context and logic all accounted for. Further more since pairs are rotated, we have a fresh pair of eyes working on the code and reviewing it, so we essentially incresed the number of reviewers for the story. And tracking is much simpler because when the pair says its done, its done, no review is needed and the pair can move on to something else, of course after forming a different pair.
 
