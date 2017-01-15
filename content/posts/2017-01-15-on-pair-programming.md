@@ -1,6 +1,6 @@
 ---
 title: "On Pair Programming"
-created_at: 2016-12-29 23:45:51 +0530
+created_at: 2017-01-15 23:45:51 +0530
 kind: article
 draft: true
 ---
@@ -21,15 +21,17 @@ Honestly, this definition has all the reasons to cause confusion. The frequent o
 
 In this post, I will try to address these and explain my interpretation and work style of Pair Programming.
 
-Lets start with what pair programming really is. Wikipedia has the image (below) to explain pair programming. In the image you can notice one person holding the mouse and keyboard and the person to the left having some papers on the desk and pointing towards the screen possibly explaining some issue or directing the co worker. 
+## What is Pair Programming
 
 ![Wikipedia Image on Pair Programming](https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Pair_programming_1.jpg/660px-Pair_programming_1.jpg)
 
-The image below is how I believe the desk of pair programmers should look like. One monitor and two sets of mouse and keyboards (one for each). 
+Lets start with what pair programming really is. Wikipedia explains pair programming with the image above. In the image you can notice one person holding the mouse and keyboard and the person to the left having some papers on the desk and pointing towards the screen possibly explaining some issue or directing the co worker. I however like the setup in the image below much better and more usable. There is one monitor, a pair of keyboard and mouse for each developer.
 
 ![What is Pair Programming Red Airship](http://www.redairship.com/wp-content/uploads/2016/10/What-is-Pair-Programming-Red-Airship-1024x696.jpg)
 
-Golden Rules of pair programming:
+So during the standup, a pair signs up for a story. The understand the specifics in a quick discussion with product owner and technical details with team. The pair then starts working on the story together. In the beginning one of them is coding and the other is reviewing the code. After a while they switch roles and now the other person takes control of keyboard.
+
+There are some ground rules that should be followed religiously inorder to really harvest the benefits of pair programming:
 
 1. The pair should sit and work on their story consistently. No one in the pair is a free navigator or in other words come and go within the day. In case one person has some work, it is prudent to actually split and form a new pair. 
 2. All coding is done by the pair together. There is no room for one person completing the code on his/her own at home or out of office. I remember, in one of my projects, one colleague actually had his pair delete the entire code that was written by his pair at home and reverted to the state at end of last day. This is important because such bypasses diffuse the purpose of pairing. Some might argue in favour of person whose code was deleted, but if you think of it, in a pair programming setup it is the pair's story and not individual's. Second working at home on a new story should anyways never be required in a team. The necessity for working at home is an indicator of a deeper project and management issue.
@@ -37,7 +39,6 @@ Golden Rules of pair programming:
 4. Both the members in the team are just **developers**. When in a pair, both the members are the same. There is no room for any categorization of people say lead, architect, seasoned developer or whatever. Everyone is the same. They should discuss out each and everything. Doing so instils confidence in freshers and empathy and humility in the seasoned developers. The utmost truth is that in a pair, no one has the right to order and no one is oblidged to follow. The pair discusses out everything. They do not proceed until they have sorted out each and every question arising in the mind of any member, however trivial it might seem.
 5. Everyone in the pair has to write code. Everyone in the pair has to review code. The practice of one driver and one coder pairing is of no use. This ties to the last point of everyone being a **developer**. This practice accelerates growth and learning amongst the team members. While it keeps the seasoned developer well grounded with the code, it helps the fresher learn from the more experienced pair. It becomes a motivation for the both to learn and read better.
 
-Each of the above mentioned rules is mandatory to truly harvest the benefits of Pair Programming.
 
 ## Pair Programming and TDD
 
@@ -79,3 +80,6 @@ Lets take a scenario, Mr A works on a story, say, *As a user, I want to be able 
 
 Pair programming is a natural alternative to this approach. Since its always a couple of developers working on a story, and since this is done over the course of development of the story, the review is much thorougher and with the rationale, context and logic all accounted for. Further more since pairs are rotated, we have a fresh pair of eyes working on the code and reviewing it, so we essentially incresed the number of reviewers for the story. And tracking is much simpler because when the pair says its done, its done, no review is needed and the pair can move on to something else, of course after forming a different pair.
 
+## Pair Programming and Team Dynamics
+
+## Pair Programming and Product Quality
