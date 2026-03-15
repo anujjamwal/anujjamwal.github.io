@@ -175,6 +175,26 @@
   margin: 0;
 }
 
+// Draft
+.draft-banner {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  color: #856404;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.draft-item {
+  display: none;
+}
+
+.show-drafts .draft-item {
+  display: revert;
+}
+
 @media (max-width: 600px) {
   .nav {
     flex-direction: column;
