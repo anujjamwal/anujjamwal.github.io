@@ -1,0 +1,38 @@
+title: Anuj Jamwal
+description: Software Engineer
+url: "https://anujjamwal.github.io"
+baseurl: ""
+
+permalink: /blog/:year/:month/:day/:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+
+social:
+  github: anujjamwal
+  linkedin: anujjamwal
