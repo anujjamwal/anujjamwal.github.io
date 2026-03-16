@@ -1,0 +1,8 @@
+<script>
+(function() {
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('include_draft') === 'True') {
+    document.documentElement.classList.add('show-drafts');
+  }
+})();
+</script>

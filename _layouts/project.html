@@ -2,6 +2,9 @@
 layout: default
 ---
 <article class="project">
+  {% if page.draft %}
+  <div class="draft-banner">This project is a draft and has not been published yet.</div>
+  {% endif %}
   <header class="project-header">
     <h1 class="project-title">{{ page.title }}</h1>
     {% if page.tags %}
